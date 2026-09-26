@@ -1,0 +1,13 @@
+# Public repositories / M3U that are still maintained (updated recently)
+# Format: name | url
+
+zilong7728 Collect-IPTV | https://raw.githubusercontent.com/zilong7728/Collect-IPTV/main/best_sorted.m3u
+mymsnn DailyIPTV full | https://raw.githubusercontent.com/mymsnn/DailyIPTV/main/outputs/full_validated.m3u
+vbskycn iptv4 | https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.m3u
+cs3306 IPTV-Sources | https://raw.githubusercontent.com/cs3306/IPTV-Sources/main/data/output/iptv_collection.m3u
+TianmuTNT iptv | https://raw.githubusercontent.com/TianmuTNT/iptv/main/iptv.m3u
+iptv-org China | https://iptv-org.github.io/iptv/countries/cn.m3u
+iptv-org Taiwan | https://iptv-org.github.io/iptv/countries/tw.m3u
+iptv-org Singapore | https://iptv-org.github.io/iptv/countries/sg.m3u
+ep g.pw Taiwan | https://epg.pw/test_channels_taiwan.m3u
+ep g.pw Singapore | https://epg.pw/test_channels_singapore.m3u
