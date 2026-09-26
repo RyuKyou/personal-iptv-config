@@ -1039,70 +1039,62 @@
         "pv.vipwm.cc",
         "static-mozai.4gtv.tv"
     ],
-    "lives": [{
-            "name": "Kimentanm",
+    "lives": [
+        {
+            "name": "Ryukyou┃中文精选(自动更新)",
             "type": 0,
-            "url": "https://down.nigx.cn/raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
+            "url": "https://raw.githubusercontent.com/RyuKyou/personal-iptv-config/main/lives/chinese.m3u",
             "playerType": 2
-        }, {
-            "name": "综合直播",
+        },
+        {
+            "name": "clbug┃央视",
             "type": 0,
-            "playerType": 2,
-            "url": "http://193.123.86.190:14888/TV/iptv.php",
-            "ua": "bingcha/1.1 (mianfeifenxiang) "
+            "url": "https://iptv.clbug.com/download.php?type=ipv4&category=%E5%A4%AE%E8%A7%86%E9%A2%91%E9%81%93&format=m3u",
+            "playerType": 2
+        },
+        {
+            "name": "clbug┃卫视",
+            "type": 0,
+            "url": "https://iptv.clbug.com/download.php?type=ipv4&category=%E5%8D%AB%E8%A7%86%E9%A2%91%E9%81%93&format=m3u",
+            "playerType": 2
+        },
+        {
+            "name": "clbug┃地方",
+            "type": 0,
+            "url": "https://iptv.clbug.com/download.php?type=ipv4&category=%E5%9C%B0%E6%96%B9%E9%A2%91%E9%81%93&format=m3u",
+            "playerType": 2
+        },
+        {
+            "name": "clbug┃台湾",
+            "type": 0,
+            "url": "https://iptv.clbug.com/download.php?type=ipv4&category=%E5%8F%B0%E6%B9%BE%E9%A2%91%E9%81%93&format=m3u",
+            "playerType": 2
+        },
+        {
+            "name": "clbug┃香港",
+            "type": 0,
+            "url": "https://iptv.clbug.com/download.php?type=ipv4&category=%E9%A6%99%E6%B8%AF%E9%A2%91%E9%81%93&format=m3u",
+            "playerType": 2
+        },
+        {
+            "name": "clbug┃澳门",
+            "type": 0,
+            "url": "https://iptv.clbug.com/download.php?type=ipv4&category=%E6%BE%B3%E9%97%A8%E9%A2%91%E9%81%93&format=m3u",
+            "playerType": 2
+        },
+        {
+            "name": "备用-CollectIPTV",
+            "type": 0,
+            "url": "https://raw.githubusercontent.com/zilong7728/Collect-IPTV/main/best_sorted.m3u",
+            "playerType": 2
         }
     ],
-    "headers": [{
+    "headers": [
+        {
             "host": "hlsztemgsplive.miguvideo.com",
             "header": {
                 "User-Agent": "bingcha/1.1 (mianfeifenxiang) "
-            }"lives": [
-  {
-    "name": "Ryukyou┃中文精选(自动更新)",
-    "type": 0,
-    "url": "https://raw.githubusercontent.com/RyuKyou/personal-iptv-config/main/lives/chinese.m3u",
-    "playerType": 2
-  },
-  {
-    "name": "clbug┃央视",
-    "type": 0,
-    "url": "https://iptv.clbug.com/download.php?type=ipv4&category=%E5%A4%AE%E8%A7%86%E9%A2%91%E9%81%93&format=m3u",
-    "playerType": 2
-  },
-  {
-    "name": "clbug┃卫视",
-    "type": 0,
-    "url": "https://iptv.clbug.com/download.php?type=ipv4&category=%E5%8D%AB%E8%A7%86%E9%A2%91%E9%81%93&format=m3u",
-    "playerType": 2
-  },
-  {
-    "name": "clbug┃地方",
-    "type": 0,
-    "url": "https://iptv.clbug.com/download.php?type=ipv4&category=%E5%9C%B0%E6%96%B9%E9%A2%91%E9%81%93&format=m3u",
-    "playerType": 2
-  },
-  {
-    "name": "clbug┃台湾",
-    "type": 0,
-    "url": "https://iptv.clbug.com/download.php?type=ipv4&category=%E5%8F%B0%E6%B9%BE%E9%A2%91%E9%81%93&format=m3u",
-    "playerType": 2
-  },
-  {
-    "name": "clbug┃香港",
-    "type": 0,
-    "url": "https://iptv.clbug.com/download.php?type=ipv4&category=%E9%A6%99%E6%B8%AF%E9%A2%91%E9%81%93&format=m3u",
-    "playerType": 2
-  },
-  {
-    "name": "clbug┃澳门",
-    "type": 0,
-    "url": "https://iptv.clbug.com/download.php?type=ipv4&category=%E6%BE%B3%E9%97%A8%E9%A2%91%E9%81%93&format=m3u",
-    "playerType": 2
-  },
-  {
-    "name": "备用-CollectIPTV",
-    "type": 0,
-    "url": "https://raw.githubusercontent.com/zilong7728/Collect-IPTV/main/best_sorted.m3u",
-    "playerType": 2
-  }
-]
+            }
+        }
+    ]
+}
