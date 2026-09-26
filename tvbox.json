@@ -1,0 +1,56 @@
+{
+  "spider": "",
+  "wallpaper": "https://www.loliapi.com/acg/",
+  "logo": "",
+  "sites": [
+    {
+      "key": "Wexconfig",
+      "name": "配置中心",
+      "type": 3,
+      "api": "csp_PanConfigGuard",
+      "searchable": 0,
+      "changeable": 0,
+      "indexs": 0,
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "push_agent",
+      "name": "推送",
+      "type": 3,
+      "api": "csp_PushGuard",
+      "searchable": 1,
+      "changeable": 0
+    }
+  ],
+  "parses": [
+    {
+      "name": "默认",
+      "type": 1,
+      "url": "http://pan.qiaoji8.com/tvbox/neibu.php?url="
+    }
+  ],
+  "doh": [
+    {
+      "name": "Google",
+      "url": "https://dns.google/dns-query",
+      "ips": ["8.8.8.8", "8.8.4.4"]
+    },
+    {
+      "name": "Cloudflare",
+      "url": "https://cloudflare-dns.com/dns-query",
+      "ips": ["1.1.1.1", "1.0.0.1"]
+    }
+  ],
+  "lives": [
+    {
+      "name": "中文精选(自动更新)",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/RyuKyou/personal-iptv-config/main/lives/chinese.m3u",
+      "playerType": 2
+    }
+  ],
+  "ads": [],
+  "rules": []
+}
