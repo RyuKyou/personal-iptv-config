@@ -1,23 +1,145 @@
 {
   "spider": "",
   "wallpaper": "https://www.loliapi.com/acg/",
-  "logo": "",
+  "logo": "https://raw.githubusercontent.com/RyuKyou/personal-iptv-config/main/assets/logo.jpg",
   "sites": [
     {
       "key": "Wexconfig",
-      "name": "配置中心",
+      "name": "Ryukyou┃配置中心",
       "type": 3,
       "api": "csp_PanConfigGuard",
       "searchable": 0,
       "changeable": 0,
       "indexs": 0,
-      "style": {
-        "type": "list"
-      }
+      "style": { "type": "list" }
+    },
+    {
+      "key": "花卷",
+      "name": "💓花卷┃4K💓",
+      "type": 3,
+      "api": "csp_AiNewHuaJuanGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "玩偶",
+      "name": "💓玩偶┃4K💓",
+      "type": 3,
+      "api": "csp_AiNewWoggGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "AiNewGuanYing",
+      "name": "💓观影┃4K💓",
+      "type": 3,
+      "api": "csp_AiNewGuanYingGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "AiQwMkv",
+      "name": "💓七味┃4K💓",
+      "type": 3,
+      "api": "csp_AiQwMkvGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "AiNewPianKu",
+      "name": "💓盘库┃4K💓",
+      "type": 3,
+      "api": "csp_AiNewPianKuGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "AiNewHuBan",
+      "name": "💓虎斑┃4K💓",
+      "type": 3,
+      "api": "csp_AiNewHuBanGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "WexHanXiaoQuan",
+      "name": "💥韩剧┃秒播💥",
+      "type": 3,
+      "api": "csp_WexAiHanXiaoQuanGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "WexAiGuaZi",
+      "name": "💥瓜子┃秒播💥",
+      "type": 3,
+      "api": "csp_WexAiGuaZiGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "WexAiDuBoKu",
+      "name": "💥独播┃秒播💥",
+      "type": 3,
+      "api": "csp_WexAiDuBoKuGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "WexAiYueYue",
+      "name": "💥闪电┃秒播💥",
+      "type": 3,
+      "api": "csp_WexAiYueYueGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "WexAiWenCai",
+      "name": "💥文才┃秒播💥",
+      "type": 3,
+      "api": "csp_WexAiWenCaiGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "AnimeXiFan",
+      "name": "🤡稀饭┃动漫🤡",
+      "type": 3,
+      "api": "csp_AnimeXiFanGuard",
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "AnimeCiYuanCheng",
+      "name": "🤡次元┃动漫🤡",
+      "type": 3,
+      "api": "csp_AnimeCiYuanChengGuard",
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "biliys",
+      "name": "🅱哔哩┃影视🅱",
+      "type": 3,
+      "api": "csp_BiliYsGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
     },
     {
       "key": "push_agent",
-      "name": "推送",
+      "name": "Ryukyou┃推送",
       "type": 3,
       "api": "csp_PushGuard",
       "searchable": 1,
@@ -26,7 +148,17 @@
   ],
   "parses": [
     {
-      "name": "默认",
+      "name": "王",
+      "type": 1,
+      "url": "http://122.228.84.103:7777/api/?key=4Dk5tdayvY6NZufEMG&url="
+    },
+    {
+      "name": "二",
+      "type": 1,
+      "url": "http://110.42.7.182:880/api/?key=7e84f07dc78fbb3406d64a1ab7d966b3&url="
+    },
+    {
+      "name": "帅",
       "type": 1,
       "url": "http://pan.qiaoji8.com/tvbox/neibu.php?url="
     }
@@ -35,25 +167,55 @@
     {
       "name": "Google",
       "url": "https://dns.google/dns-query",
-      "ips": [
-        "8.8.8.8",
-        "8.8.4.4"
-      ]
+      "ips": ["8.8.8.8", "8.8.4.4"]
     },
     {
       "name": "Cloudflare",
       "url": "https://cloudflare-dns.com/dns-query",
-      "ips": [
-        "1.1.1.1",
-        "1.0.0.1"
-      ]
+      "ips": ["1.1.1.1", "1.0.0.1"]
     }
   ],
   "lives": [
     {
-      "name": "中文精选(自动更新)",
+      "name": "Ryukyou┃中文精选(自动更新)",
       "type": 0,
       "url": "https://raw.githubusercontent.com/RyuKyou/personal-iptv-config/main/lives/chinese.m3u",
+      "playerType": 2
+    },
+    {
+      "name": "clbug┃央视",
+      "type": 0,
+      "url": "https://iptv.clbug.com/download.php?type=ipv4&category=%E5%A4%AE%E8%A7%86%E9%A2%91%E9%81%93&format=m3u",
+      "playerType": 2
+    },
+    {
+      "name": "clbug┃卫视",
+      "type": 0,
+      "url": "https://iptv.clbug.com/download.php?type=ipv4&category=%E5%8D%AB%E8%A7%86%E9%A2%91%E9%81%93&format=m3u",
+      "playerType": 2
+    },
+    {
+      "name": "clbug┃地方",
+      "type": 0,
+      "url": "https://iptv.clbug.com/download.php?type=ipv4&category=%E5%9C%B0%E6%96%B9%E9%A2%91%E9%81%93&format=m3u",
+      "playerType": 2
+    },
+    {
+      "name": "clbug┃台湾",
+      "type": 0,
+      "url": "https://iptv.clbug.com/download.php?type=ipv4&category=%E5%8F%B0%E6%B9%BE%E9%A2%91%E9%81%93&format=m3u",
+      "playerType": 2
+    },
+    {
+      "name": "clbug┃香港",
+      "type": 0,
+      "url": "https://iptv.clbug.com/download.php?type=ipv4&category=%E9%A6%99%E6%B8%AF%E9%A2%91%E9%81%93&format=m3u",
+      "playerType": 2
+    },
+    {
+      "name": "clbug┃澳门",
+      "type": 0,
+      "url": "https://iptv.clbug.com/download.php?type=ipv4&category=%E6%BE%B3%E9%97%A8%E9%A2%91%E9%81%93&format=m3u",
       "playerType": 2
     },
     {
