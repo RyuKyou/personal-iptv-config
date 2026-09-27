@@ -2,7 +2,7 @@ name: Update Chinese Live Sources
 
 on:
   schedule:
-    - cron: "0 18 * * *"   # 02:00 Beijing time roughly
+    - cron: "0 18 * * *"   # ~02:00 Beijing time
   workflow_dispatch:
 
 jobs:
@@ -31,3 +31,25 @@ jobs:
           git add lives/ tvbox.json
           git diff --staged --quiet || git commit -m "Auto update Chinese live sources $(date -u +%Y-%m-%d)"
           git push
+
+      - name: Read m3u content
+        id: m3u
+        run: |
+          {
+            echo "body<<EOF"
+            cat lives/chinese.m3u
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Send email with chinese.m3u
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.qq.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.QQ_EMAIL }}
+          password: ${{ secrets.QQ_AUTH_CODE }}
+          subject: Ryukyou IPTV chinese.m3u 每日更新
+          to: ${{ secrets.QQ_EMAIL }}
+          from: Ryukyou IPTV <${{ secrets.QQ_EMAIL }}>
+          body: ${{ steps.m3u.outputs.body }}
