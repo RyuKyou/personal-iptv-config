@@ -32,16 +32,19 @@ jobs:
           git diff --staged --quiet || git commit -m "Auto update Chinese live sources $(date -u +%Y-%m-%d)"
           git push
 
-      - name: Read m3u content
-        id: m3u
+      - name: Check email secrets
         run: |
-          {
-            echo "body<<EOF"
-            cat lives/chinese.m3u
-            echo "EOF"
-          } >> "$GITHUB_OUTPUT"
+          if [ -z "${{ secrets.QQ_EMAIL }}" ]; then
+            echo "ERROR: Secret QQ_EMAIL is empty. Add it in Settings → Secrets and variables → Actions"
+            exit 1
+          fi
+          if [ -z "${{ secrets.QQ_AUTH_CODE }}" ]; then
+            echo "ERROR: Secret QQ_AUTH_CODE is empty."
+            exit 1
+          fi
+          echo "Secrets look present (values hidden)."
 
-      - name: Send email with chinese.m3u
+      - name: Send email with chinese.m3u attachment
         uses: dawidd6/action-send-mail@v3
         with:
           server_address: smtp.qq.com
@@ -52,4 +55,8 @@ jobs:
           subject: Ryukyou IPTV chinese.m3u 每日更新
           to: ${{ secrets.QQ_EMAIL }}
           from: Ryukyou IPTV <${{ secrets.QQ_EMAIL }}>
-          body: ${{ steps.m3u.outputs.body }}
+          body: |
+            Ryukyou IPTV 每日更新
+            附件为最新 chinese.m3u 全文。
+            仓库地址: https://github.com/RyuKyou/personal-iptv-config
+          attachments: lives/chinese.m3u
