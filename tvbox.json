@@ -1047,21 +1047,21 @@
             "playerType": 2
         },
         {
-            "name": "clbug┃央视",
+            "name": "clbug┃电台",
             "type": 0,
-            "url": "https://iptv.clbug.com/download.php?type=ipv4&category=%E5%A4%AE%E8%A7%86%E9%A2%91%E9%81%93&format=m3u",
+            "url": "https://iptv.clbug.com/download.php?type=radio&category=%E5%A2%83%E5%A4%96%E5%B9%BF%E6%92%AD&format=m3u",
             "playerType": 2
         },
         {
-            "name": "clbug┃卫视",
+            "name": "clbug┃音乐",
             "type": 0,
-            "url": "https://iptv.clbug.com/download.php?type=ipv4&category=%E5%8D%AB%E8%A7%86%E9%A2%91%E9%81%93&format=m3u",
+            "url": "https://iptv.clbug.com/download.php?type=international_cat&category=music&format=m3u",
             "playerType": 2
         },
         {
-            "name": "clbug┃地方",
+            "name": "clbug┃新闻",
             "type": 0,
-            "url": "https://iptv.clbug.com/download.php?type=ipv4&category=%E5%9C%B0%E6%96%B9%E9%A2%91%E9%81%93&format=m3u",
+            "url": "https://iptv.clbug.com/download.php?type=international_cat&category=news&format=m3u",
             "playerType": 2
         },
         {
@@ -1071,15 +1071,15 @@
             "playerType": 2
         },
         {
-            "name": "clbug┃香港",
+            "name": "clbug┃中文",
             "type": 0,
-            "url": "https://iptv.clbug.com/download.php?type=ipv4&category=%E9%A6%99%E6%B8%AF%E9%A2%91%E9%81%93&format=m3u",
+            "url": "https://iptv.clbug.com/download.php?type=international_lang&category=zho&format=m3u",
             "playerType": 2
         },
         {
-            "name": "clbug┃澳门",
+            "name": "clbug┃电影",
             "type": 0,
-            "url": "https://iptv.clbug.com/download.php?type=ipv4&category=%E6%BE%B3%E9%97%A8%E9%A2%91%E9%81%93&format=m3u",
+            "url": "https://iptv.clbug.com/download.php?type=ipv4&category=%E7%94%B5%E5%BD%B1%E9%A2%91%E9%81%93&format=m3u",
             "playerType": 2
         },
         {
