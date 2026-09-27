@@ -8,15 +8,15 @@ https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8
 #EXTINF:-1,CCTV+ 2 (600p) [Not 24/7]
 https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL2.smil/playlist.m3u8
 #EXTINF:-1,CCTV-1 综合
-http://107.150.60.122/live/cctv12hd.m3u8
+http://74.91.26.218:82/live/cctv13hd.m3u8
 #EXTINF:-1,CCTV-2 财经
 http://107.150.60.122/live/cctv2hd.m3u8
 #EXTINF:-1,CCTV-3 综艺
 http://74.91.26.218:82/live/cctv3hd.m3u8
 #EXTINF:-1,CCTV-4 中文国际
-https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1790553600-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-ca2bfcefa4ea2089a5f07cb367b62363&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
+https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1790589600-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-6d20368ced1436ebd0b71f94900d51a2&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 #EXTINF:-1,CCTV-4K 高清
-https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4k_mbd.m3u8?auth_key=1790553600-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-4487ced636ffa917aee2eb5ff145259f&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
+https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4k_mbd.m3u8?auth_key=1790589600-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-aa86b9ea2f5cc3860a941ef8b98bc572&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 #EXTINF:-1,CCTV-5 体育
 http://107.150.60.122/live/cctv5hd.m3u8
 #EXTINF:-1,CCTV-5+ 体育赛事
@@ -26,13 +26,13 @@ http://8.138.7.223/tv/1905.php?id=LIVE3YPYZ30E7V1R0
 #EXTINF:-1,CCTV-7 国防军事
 http://74.91.26.218:82/live/cctv7hd.m3u8
 #EXTINF:-1,CCTV-8 电视剧
-http://69.30.245.50/live/cctv8.m3u8
+http://74.91.26.218:82/live/cctv8hd.m3u8
 #EXTINF:-1,CCTV-8K HD (1080p)
 http://192.151.150.154/live/cctv8k.m3u8
 #EXTINF:-1,CCTV-9 (576i)
 https://xykt-fix.github.io/Y77.m3u8
 #EXTINF:-1,CCTV-9 纪录
-https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=07934fb27107cc99edf06b4ad426999b
+https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=788bd092eb33541e03a75cfded2413e0
 #EXTINF:-1,CCTV-Billiards (1080p)
 http://38.75.136.137:98/gslb/dsdqpub/ystq.m3u8?auth=testpub
 #EXTINF:-1,CCTV-Culture of Quality SD (1080p)
@@ -69,16 +69,12 @@ https://live.264788.xyz/channel/yangshiwenhuajingpin?streamid=bc185d1ef1e528922e
 https://live.264788.xyz/channel/diyijuchang?streamid=e9b0fb1ca135a4aeae12944494883794&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 #EXTINF:-1,CGTN Arabic
 https://dash3.antik.sk/live/test_cgtn_arb_tizen/playlist.m3u8
-#EXTINF:-1,CGTN Documentary (1080p)
-https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master.m3u8
 #EXTINF:-1,CGTN French (1080p)
 http://145.239.5.177/214/index.m3u8
 #EXTINF:-1,CGTN俄语
 https://0472.org/hls/cgtne.m3u8
 #EXTINF:-1,CGTN法语
 https://0472.org/hls/cgtnf.m3u8
-#EXTINF:-1,CGTN法语 # Tier:A Score:10
-http://espanol-liveali.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd.m3u8
 #EXTINF:-1,CGTN纪录
 https://0472.org/hls/cgtnd.m3u8
 #EXTINF:-1,CGTN英语
@@ -86,7 +82,7 @@ https://0472.org/hls/cgtn.m3u8
 #EXTINF:-1,CGTN英语 # Tier:A Score:10
 http://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8
 #EXTINF:-1,CGTN西语
-https://0472.org/hls/cgtnx.m3u8
+http://espanol-liveali.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd.m3u8
 #EXTINF:-1,CGTN记录
 https://english-livetx.cgtn.com/hls/yypdjlctzb_hd.m3u8
 #EXTINF:-1,CGTN阿语
@@ -106,15 +102,13 @@ https://d1flvb4iqlercm.cloudfront.net/live/live_1080p_2nd.m3u8
 #EXTINF:-1,TVB News
 http://r.jdshipin.com/CkuBd
 #EXTINF:-1,TVB Plus
-http://php.jdshipin.com/TVOD/iptv.php?id=j2
-#EXTINF:-1,TVB Plus # Tier:B Score:7
 http://r.jdshipin.com/Nr5jq
 #EXTINF:-1,TVBS-Asia
 http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
 #EXTINF:-1,TVBS亚洲
-http://38.64.72.148/hls/modn/list/4005/chunklist1.m3u8
+http://38.64.72.148/hls/modn/list/4005/chunklist0.m3u8
 #EXTINF:-1,TVBS亞洲
-http://38.64.72.148:80/hls/modn/list/4005/chunklist0.m3u8
+http://38.64.72.148:80/hls/modn/list/4005/chunklist1.m3u8
 #EXTINF:-1,TVBS新闻台
 http://61.221.215.25:8800/hls/9/index.m3u8
 #EXTINF:-1,TVB娱乐新闻台
@@ -127,6 +121,8 @@ http://php.jdshipin.com/TVOD/iptv.php?id=xinghe
 http://r.jdshipin.com/sXuuD
 #EXTINF:-1,TVB翡翠台 1080P
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct3
+#EXTINF:-1,「中」凤凰传奇-御龙归字谣
+http://antiserver.kuwo.cn/anti.s?rid=MUSIC_1164118&response=res&format=mp4&type=convert_url
 #EXTINF:-1,「中」凤凰传奇-温柔姑娘
 http://antiserver.kuwo.cn/anti.s?rid=MUSIC_6401404&response=res&format=mp4&type=convert_url
 #EXTINF:-1,「电影」大卫贝肯•倒霉特工熊
@@ -168,19 +164,15 @@ http://120.76.248.139/live/bfgd/4200000110.m3u8
 #EXTINF:-1,农林卫视
 http://120.76.248.139/live/bfgd/4200000122.m3u8
 #EXTINF:-1,凤凰中文
-http://43.152.224.209/qctv.fengshows.cn/live/0701pcc72.flv
-#EXTINF:-1,凤凰中文 # Tier:B Score:7
 http://r.jdshipin.com/cCCzW
 #EXTINF:-1,凤凰卫视台
 http://php.jdshipin.com/TVOD/iptv.php?id=fhzw
 #EXTINF:-1,凤凰资讯
-http://43.152.224.209/qctv.fengshows.cn/live/0701pin72.flv
-#EXTINF:-1,凤凰资讯 # Tier:B Score:7
 http://r.jdshipin.com/0Rp07
 #EXTINF:-1,凤凰资讯台
 http://php.jdshipin.com/TVOD/iptv.php?id=fhzx
 #EXTINF:-1,凤凰香港
-http://43.152.224.209/qctv.fengshows.cn/live/0701phk72.flv
+http://r.jdshipin.com/NfC0f
 #EXTINF:-1,凤凰香港 # Tier:B Score:7
 http://r.jdshipin.com/yDoTN
 #EXTINF:-1,凤凰香港台
@@ -199,26 +191,32 @@ https://live.metshop.top/huya/29982675
 http://www.goodiptv.club/douyu/2793084
 #EXTINF:-1,周星驰电影
 https://live.metshop.top/huya/11342412
+#EXTINF:-1,四川卫视
+http://101.66.194.125:9901/tsfile/live/0123_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1,地理中国
 http://newcntv.qcloudcdn.com/asp/hls/1200/0303000a/3/default/c6baf6f74bb944aeacee1065ea72c798/1200.m3u8
 #EXTINF:-1,大湾区卫视
 http://222.128.55.152:9080/live/dwq.m3u8
 #EXTINF:-1,天津卫视
-http://107.150.60.122/live/tjwshd.m3u8
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=tjwshd
 #EXTINF:-1,宁夏卫视
 https://live.264788.xyz/channel/ningxiaweishi?streamid=e1236348f815c36a0429357e5b5c5f10&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 #EXTINF:-1,安多卫视
 https://liveout.xntv.tv/a65jur/96iln2.m3u8
 #EXTINF:-1,山西卫视
 http://119.39.9.8:9901/tsfile/live/0118_1.m3u8
+#EXTINF:-1,广东卫视
+https://txmov2.a.kwimgs.com/upic/2023/01/26/09/BMjAyMzAxMjYwOTE3NDVfNzM5MzQzNzIyXzk0NjI1OTUwNTA3XzBfMw==_b_B81ddda927d33445d544befd008e60109.mp4
 #EXTINF:-1,延边卫视
 http://120.76.248.139/live/bfgd/4200000117.m3u8
+#EXTINF:-1,强森电影
+https://live.metshop.top/huya/21059581
 #EXTINF:-1,怪兽电影
 https://live.metshop.top/huya/21059577
 #EXTINF:-1,成龙电影
 https://live.metshop.top/huya/11342386
-#EXTINF:-1,新疆卫视
-http://218.84.12.186:8001/hls/main/playlist.m3u8?zxinjd;http://218.84.12.186:8001/hls/main/playlist.m3u8zxinjd
+#EXTINF:-1,战争电影
+https://live.metshop.top/huya/21059574
 #EXTINF:-1,末日电影合集
 https://live.ottiptv.cc/yy/1354889019
 #EXTINF:-1,李连杰电影
@@ -239,6 +237,8 @@ https://live.metshop.top/huya/11601968
 http://120.76.248.139/live/bfgd/4200000108.m3u8
 #EXTINF:-1,河北卫视 # Tier:A Score:10
 http://event.pull.hebtv.com/jishi/weishi_tingyun.m3u8
+#EXTINF:-1,河南卫视
+http://111.59.139.82:11888/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1,浙江卫视
 http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
 #EXTINF:-1,海南卫视
@@ -265,6 +265,8 @@ https://live.metshop.top/huya/11342414
 https://live.metshop.top/huya/11602058
 #EXTINF:-1,甄子丹电影
 https://live.metshop.top/huya/11352935
+#EXTINF:-1,甘肃卫视
+http://218.13.170.98:9901/tsfile/live/0141_1.m3u8
 #EXTINF:-1,电影丧尸片
 http://live.metshop.top/huya/21059578?cdn=alicdn
 #EXTINF:-1,电影八点档
@@ -317,10 +319,14 @@ https://txmov2.a.kwimgs.com/bs3/video-hls/5211790793651941963_hlsb.m3u8
 https://live.metshop.top/huya/11352962
 #EXTINF:-1,航拍中国第二季
 http://newcntv.qcloudcdn.com/asp/hls/4000/0303000a/3/default/2bdfdad540b342f592f9817cb7f3b79a/4000.m3u8
+#EXTINF:-1,西藏卫视
+http://112.27.5.218:9901/tsfile/live/0111_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1,谍战电影
 https://live.metshop.top/huya/21059585
 #EXTINF:-1,贺岁电影
 https://live.metshop.top/huya/11601986
+#EXTINF:-1,重庆卫视
+http://101.66.194.125:9901/tsfile/live/0142_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1,金庸武侠
 https://live.metshop.top/huya/11342435
 #EXTINF:-1,铁齿铜牙纪晓岚
@@ -335,7 +341,3 @@ https://stream.ads.ottera.tv/playlist.m3u8?network_id=743
 http://webcast.hkstv.tv/livestream/mutfysrq/playlist.m3u8
 #EXTINF:-1,黄渤电影
 https://live.metshop.top/huya/11352876
-#EXTINF:-1,龙华电影
-https://cdn8.163189.xyz/live/lhdy/stream.m3u8
-#EXTINF:-1,龙祥电影
-http://31.43.191.125:8080/vip6821768502490/6c17bae55394/34825
