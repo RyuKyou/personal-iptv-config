@@ -20,7 +20,7 @@ HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; IPTV-Updater/1.0)"}
 TIMEOUT = 12
 
 KEEP_KEYWORDS = [
-    "CCTV-1", "贵州", "云南", "旅游", "卫视", "台灣", "foxsport", "singapore", "美食", "comic", "japan",
+    "CCTV-1", "贵州", "云南", "旅游", "卫视", "台灣", "FOX sport", "singapore", "美食", "comic", "japan",
     "tvb", "鳳凰", "凤凰", "中天", "东森", "民视", "八大電視", "tvbs", "華視", "公视",
     "电视", "香港", "古装", "華語", "华语", "喜剧", "成龙", "周润发", "刘德华", "周星驰", "甄子丹", "洪金宝", "林正英", "影视", "武侠", "狄仁杰", "纪晓岚", "電影",
 ]
