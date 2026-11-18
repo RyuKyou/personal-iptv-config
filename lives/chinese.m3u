@@ -1,14 +1,14 @@
 #EXTM3U
+#EXTINF:-1,Cartoon Network (Japan) HD
+http://103.255.250.188:5002/cs25.m3u8?token=guoziyun&gid=cs25&channel=zhongying
 #EXTINF:-1,CCTV-1 (720p)
 http://74.91.26.218:82/live/cctv1hd.m3u8
 #EXTINF:-1,CCTV-1 综合
-http://74.91.26.218:82/live/cctv17hd.m3u8
+http://74.91.26.218:82/live/cctv12hd.m3u8
 #EXTINF:-1,CCTV-10 (720p)
 http://74.91.26.218:82/live/cctv10hd.m3u8
 #EXTINF:-1,CCTV-11 (720p)
 http://74.91.26.218:82/live/cctv11hd.m3u8
-#EXTINF:-1,CCTV-12 (720p)
-http://74.91.26.218:82/live/cctv12hd.m3u8
 #EXTINF:-1,CCTV-13 (720p)
 http://74.91.26.218:82/live/cctv13hd.m3u8
 #EXTINF:-1,CCTV-14 HD (1080p)
@@ -17,8 +17,10 @@ http://74.91.26.218:82/live/cctv14hd.m3u8
 http://74.91.26.218:82/live/cctv15hd.m3u8
 #EXTINF:-1,CCTV-16 HD (1080p)
 http://74.91.26.218:82/live/cctv16hd.m3u8
+#EXTINF:-1,CCTV-17 HD (1080p)
+http://74.91.26.218:82/live/cctv17hd.m3u8
 #EXTINF:-1,CCTV-8 电视剧
-http://74.91.26.218:82/live/cctv8hd.m3u8
+http://69.30.245.50/live/cctv8.m3u8
 #EXTINF:-1,Channel 5 (Singapore) (720p)
 https://cdn.qd.je/163189/ch5
 #EXTINF:-1,Channel 8 (Singapore) (720p)
@@ -27,22 +29,20 @@ https://cdn.qd.je/163189/ch8
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8
 #EXTINF:-1,Darcizzle电视
 http://30a-tv.com/darcizzle.m3u8
+#EXTINF:-1,Disney Channel (Japan)
+http://103.255.250.188:5002/bs24.m3u8?token=guoziyun&gid=bs24&channel=zhongying
 #EXTINF:-1,Fox Sports 1 (720p)
 http://85.237.89.160:9590/usa-s/FOX-SPORTS-1/index.m3u8
 #EXTINF:-1,Fox Sports News (1080p)
 https://skynewsau-live-premium.akamaized.net/hls/live/2105307/foxsportsnews/live_1080p.m3u8
-#EXTINF:-1,JapanimTV (1080p)
-https://foxkidstv.be:3369/stream/play.m3u8
-#EXTINF:-1,JG影视解说
-https://www.goodiptv.club/douyu/9391277
+#EXTINF:-1,MTV (Japan)
+http://103.255.250.188:5002/cs18.m3u8?token=guoziyun&gid=cs18&channel=zhongying
 #EXTINF:-1,QVC (Japan) (1080p)
 https://d1flvb4iqlercm.cloudfront.net/live/live_1080p_2nd.m3u8
 #EXTINF:-1,TVB News
 http://r.jdshipin.com/CkuBd
 #EXTINF:-1,TVB Plus
 http://r.jdshipin.com/ndGgS
-#EXTINF:-1,TVB Plus # Tier:B Score:7
-http://r.jdshipin.com/Nr5jq
 #EXTINF:-1,TVBS-Asia
 http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
 #EXTINF:-1,TVBS亚洲
@@ -67,6 +67,8 @@ http://l.cztvcloud.com/channels/lantian/SXshangyu2/720p.m3u8
 http://live.zohi.tv/video/s10001-fztv-3/index.m3u8
 #EXTINF:-1,东方卫视
 http://bp-resource-dfl.bestv.cn/155/3/video.m3u8
+#EXTINF:-1,东方卫视4K # Tier:A Score:10
+http://bp-resource-dfl.bestv.cn/148/3/video.m3u8
 #EXTINF:-1,东森美洲
 http://38.64.72.148:80/hls/modn/list/2015/chunklist0.m3u8
 #EXTINF:-1,东森财经新闻
@@ -77,16 +79,12 @@ http://38.64.72.148:80/hls/modn/list/2013/chunklist1.m3u8
 http://l.cztvcloud.com/channels/lantian/SXdongyang1/720p.m3u8
 #EXTINF:-1,临夏市电视台
 http://124.152.34.102:8030/wCMq71/wCMq71_0.m3u8
-#EXTINF:-1,二胖影视
-https://www.goodiptv.club/douyu/10064260
 #EXTINF:-1,云南卫视
 https://p2.ioioz.com/xgplayer.php?id=https://hwapi.yntv.net/ew265l/z1z6s5.m3u8
 #EXTINF:-1,亚洲武侠
 http://php.jdshipin.com/TVOD/iptv.php?id=yzwx
 #EXTINF:-1,人间卫视
 http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u
-#EXTINF:-1,佛曰影视
-https://www.goodiptv.club/douyu/9671758
 #EXTINF:-1,内蒙古卫视
 http://120.76.248.139/live/bfgd/4200000110.m3u8
 #EXTINF:-1,农林卫视
@@ -98,17 +96,19 @@ http://r.jdshipin.com/cCCzW
 #EXTINF:-1,凤凰卫视台
 http://php.jdshipin.com/TVOD/iptv.php?id=fhzw
 #EXTINF:-1,凤凰资讯
+http://43.152.224.209/qctv.fengshows.cn/live/0701pin72.flv
+#EXTINF:-1,凤凰资讯 # Tier:B Score:7
 http://r.jdshipin.com/0Rp07
 #EXTINF:-1,凤凰资讯台
 http://php.jdshipin.com/TVOD/iptv.php?id=fhzx
 #EXTINF:-1,凤凰香港
-http://r.jdshipin.com/yDoTN
+http://43.152.224.209/qctv.fengshows.cn/live/0701phk72.flv
+#EXTINF:-1,凤凰香港 # Tier:B Score:7
+http://r.jdshipin.com/NfC0f
 #EXTINF:-1,凤凰香港台
 http://php.jdshipin.com/TVOD/iptv.php?id=fhhk
 #EXTINF:-1,刘德华电影
 https://live.metshop.top/huya/11342424
-#EXTINF:-1,北京卫视
-http://63.141.230.178:82/gslb/zbdq5.m3u8?id=bjwshd
 #EXTINF:-1,华语影视
 http://www.goodiptv.club/douyu/3928
 #EXTINF:-1,南宁影视娱乐
@@ -121,68 +121,38 @@ http://www.goodiptv.club/douyu/2793084
 http://221.7.175.154:8445/tsfile/live/1014_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1,周星驰电影
 https://live.metshop.top/huya/11342412
-#EXTINF:-1,周星驰的直播间
-https://www.goodiptv.club/douyu/8257039
-#EXTINF:-1,哈利影视
-https://www.goodiptv.club/douyu/8475821
 #EXTINF:-1,哈尔滨影视
 http://stream.hrbtv.net/yspd/sd/live.m3u8?zheild
-#EXTINF:-1,喜剧电影笑不停
-https://www.goodiptv.club/douyu/10298856
-#EXTINF:-1,噬元兽影视
-https://www.goodiptv.club/douyu/8896723
-#EXTINF:-1,四叶草影视
-https://www.goodiptv.club/douyu/9446117
 #EXTINF:-1,四川卫视
 https://live.264788.xyz/channel/sichuanweishi4k?streamid=401bf692a1a8b91298f26077d53316d6&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 #EXTINF:-1,固镇影视频道
 http://www.guzhenm.com:7004/hls/hd-live.m3u8
 #EXTINF:-1,大湾区卫视
-http://198.204.228.26/live/nfws.m3u8
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=nfws
 #EXTINF:-1,大立电视台
 http://www.dalitv.com.tw:4568/live/dali/index.m3u8
-#EXTINF:-1,大米饭影视
-https://www.goodiptv.club/douyu/9824094
 #EXTINF:-1,宁夏卫视
 http://120.76.248.139/live/bfgd/4200000118.m3u8
 #EXTINF:-1,安多卫视
 https://liveout.xntv.tv/a65jur/96iln2.m3u8
 #EXTINF:-1,安徽卫视
 http://gmxw.7766.org:808/hls/40/index.m3u8
-#EXTINF:-1,山东卫视
-http://198.204.228.26/live/sdwshd.m3u8
 #EXTINF:-1,山西卫视
 http://119.39.9.8:9901/tsfile/live/0118_1.m3u8
 #EXTINF:-1,广东卫视
 https://txmov2.a.kwimgs.com/upic/2023/01/26/09/BMjAyMzAxMjYwOTE3NDVfNzM5MzQzNzIyXzk0NjI1OTUwNTA3XzBfMw==_b_B81ddda927d33445d544befd008e60109.mp4
-#EXTINF:-1,广西卫视
-http://107.150.60.122/live/gxwshd.m3u8
 #EXTINF:-1,延边卫视
 http://120.76.248.139/live/bfgd/4200000117.m3u8
-#EXTINF:-1,影视梗大叔
-https://www.goodiptv.club/douyu/9480648
-#EXTINF:-1,影视英雄汇
-https://www.goodiptv.club/douyu/10240495
-#EXTINF:-1,影视集装箱
-https://www.goodiptv.club/douyu/8651489
-#EXTINF:-1,微笑影视解说
-https://www.goodiptv.club/douyu/9476790
-#EXTINF:-1,成龙历险纪
-https://www.goodiptv.club/douyu/2287949
 #EXTINF:-1,成龙电影
 https://live.metshop.top/huya/11342386
 #EXTINF:-1,新昌休闲影视
 http://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8
 #EXTINF:-1,新疆卫视
 http://218.84.12.186:8001/hls/main/playlist.m3u8?zxinjd;http://218.84.12.186:8001/hls/main/playlist.m3u8zxinjd
-#EXTINF:-1,易说影视
-https://www.goodiptv.club/douyu/10859591
 #EXTINF:-1,晋江电视台
 http://stream.jinjiang.tv/1/sd/live.m3u8?zfud
 #EXTINF:-1,普陀电视台
-https://l.cztvcloud.com/channels/lantian/SXputuo1/720p.m3u8
-#EXTINF:-1,林九影视
-https://www.goodiptv.club/douyu/7212528
+http://l.cztvcloud.com/channels/lantian/SXputuo1/720p.m3u8
 #EXTINF:-1,林正英电影
 https://live.metshop.top/huya/11342421
 #EXTINF:-1,武侠电影
@@ -199,36 +169,26 @@ http://120.76.248.139/live/bfgd/4200000108.m3u8
 http://event.pull.hebtv.com/jishi/weishi_tingyun.m3u8
 #EXTINF:-1,河北影视
 http://1.94.31.214/php/hebei.php?id=hbys
-#EXTINF:-1,河南卫视
-http://107.150.60.122/live/hawshd.m3u8
 #EXTINF:-1,浙江卫视
-http://ali-m-l.cztv.com:80/channels/lantian/channel001/1080p.m3u8
-#EXTINF:-1,浙江卫视 # Tier:A Score:10
 http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
 #EXTINF:-1,浙江教科影视
-http://ali-m-l.cztv.com/channels/lantian/channel04/1080p.m3u8
+http://ali-vl.cztv.com/channels/lantian/channel004/360p.m3u8
 #EXTINF:-1,海南卫视
 http://120.76.248.139/live/bfgd/4200000473.m3u8
 #EXTINF:-1,海峡卫视
 http://8.138.7.223/tv/hxws.m3u8
 #EXTINF:-1,深圳卫视
 http://gmxw.7766.org:808/hls/45/index.m3u8
-#EXTINF:-1,湖北卫视
-http://63.141.230.178:82/gslb/zbdq5.m3u8?id=hbwshd
 #EXTINF:-1,湖南卫视
-https://txmov2.a.kwimgs.com/bs3/video-hls/5199687338554291078_hlsb.m3u8
+http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
 #EXTINF:-1,湖南卫视4K # Tier:C Score:4
 http://8.138.7.223/tv/api.php?id=hnws4k
 #EXTINF:-1,澳门卫视
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=as
-#EXTINF:-1,爱星影视
-https://www.goodiptv.club/douyu/9476806
 #EXTINF:-1,特种兵之火凤凰
 https://live.ottiptv.cc/huya/29982636
 #EXTINF:-1,狄仁杰电影
 https://live.metshop.top/huya/30080229
-#EXTINF:-1,玖月影视
-https://www.goodiptv.club/douyu/9339251
 #EXTINF:-1,环球旅游
 http://120.76.248.139/live/bfgd/4200000147.m3u8
 #EXTINF:-1,环球电视
@@ -245,8 +205,6 @@ http://live.metshop.top/huya/11602044?cdn=alicdn
 http://live.metshop.top/huya/11342423?cdn=alicdn
 #EXTINF:-1,电视指南
 http://63.141.230.178:82/gslb/zbdq5.m3u8?id=dszn
-#EXTINF:-1,电视这个圈儿
-https://www.goodiptv.club/douyu/9425669
 #EXTINF:-1,神探狄仁杰第一部
 https://live.ottiptv.cc/yy/1354930934
 #EXTINF:-1,神探狄仁杰第三部
@@ -263,24 +221,16 @@ http://l.cztvcloud.com:80/channels/lantian/SXjinyun1/720p.m3u8
 http://file.ysxtv.cn/cms/videos/nmip-media/channellive/channel4/playlist.m3u8?zsicd#http://file.ysxtv.cn/cms/videos/nmip-media/channellive/channel4/playlist.m3u8
 #EXTINF:-1,西藏卫视
 http://112.27.5.218:9901/tsfile/live/0111_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1,贝爷求生影视
-https://www.goodiptv.club/douyu/9661369
 #EXTINF:-1,贵州卫视
 https://live.264788.xyz/channel/guizhouweishi?streamid=091bd59ea031989839c23459bb8cc9d4&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 #EXTINF:-1,辽宁卫视
 http://61.136.172.236:9901/tsfile/live/0121_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1,辽宁影视剧
 http://120.76.248.139/live/bfgd/4200000070.m3u8
-#EXTINF:-1,通海电视台
-https://zb-live.ynurl.com/tonghai/3bfe3a9e-48e6-4c1e-8770-1df66447cc6c.m3u8
 #EXTINF:-1,重庆卫视
-https://p2.ioioz.com/videojs.php?id=https://sjlivecdn9.cbg.cn/202611170706/app_2/_definst_/ls_2.stream/chunklist.m3u8
-#EXTINF:-1,野格影视
-https://www.goodiptv.club/douyu/9931766
+https://p2.ioioz.com/videojs.php?id=https://sjlivecdn9.cbg.cn/202611180106/app_2/_definst_/ls_2.stream/chunklist.m3u8
 #EXTINF:-1,金庸武侠
 https://live.metshop.top/huya/11342435
-#EXTINF:-1,铁血影视汇
-https://www.goodiptv.club/douyu/9649701
 #EXTINF:-1,铁齿铜牙纪晓岚
 https://live.ottiptv.cc/huya/11342396
 #EXTINF:-1,长白山电视台
@@ -291,7 +241,5 @@ https://live.264788.xyz/channel/shaanxiweishi?streamid=9dc887dba8ecb4e4143baf4f2
 https://hls-qhmh.lanzhousobey.cn/qhmh/mhds.m3u8
 #EXTINF:-1,青田电视台
 http://l.cztvcloud.com/channels/lantian/SXqingtian1/720p.m3u8
-#EXTINF:-1,香兰爱影视
-https://www.goodiptv.club/douyu/9487090
 #EXTINF:-1,鬼吹灯之云南虫谷
 https://live.ottiptv.cc/huya/11352898
